@@ -1,6 +1,6 @@
 import pytest
 import requests
-from pact_python.matchers import like
+from pact_python.matches import like
 from pact_python.consumer import Consumer
 
 consumer = Consumer('Dashboard')
